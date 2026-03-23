@@ -30,7 +30,7 @@ def withdrawal(currBal):
 
 def exit_program():
     global isRunning
-    print("Thank you! Goodbye")
+    print("Thank you! Goodbye. We lost rori💔")
     isRunning = False
 
 # Starting balance
