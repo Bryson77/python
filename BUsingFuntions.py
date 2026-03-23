@@ -22,7 +22,7 @@ def deposit(currBal):
 def withdrawal(currBal):
     withdrawalAmnt = float(input("How much would you like to withdraw: "))
     if withdrawalAmnt > currBal:
-        print("Insufficient Balance")
+        print("Insufficient Balance buddy, go to sleep asap!")
     else:
         currBal -= withdrawalAmnt
         print("Withdrawal was successful.")
